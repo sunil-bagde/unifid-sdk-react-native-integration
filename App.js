@@ -24,7 +24,7 @@ export default function App() {
     <View style={{ flex: 1, alignItems: "center", backgroundColor: "#fff" }}>
       <WebView
         originWhitelist={["*"]}
-        source={{ uri: "http://192.168.0.100:3000/" }}
+        source={{ uri: "https://unifid-sdk-git-main-im-sunil.vercel.app/" }} 
         style={styles.frame}
         javaScriptEnabled={true}
         onLoadEnd={handleSdkInit}
